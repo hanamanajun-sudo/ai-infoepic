@@ -60,6 +60,15 @@ const ogImage = image ? new URL(image, Astro.site).toString() : new URL('/og-def
     <meta name="google-site-verification" content="8vweZoYIYHsV8uXwGWWPFFNKo9tMD957TTHbB3N3USQ" />
     <meta name="naver-site-verification" content="7847575c3df97e86855862be5c95a62d1959f2f9" />
 
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-0FMSN58CYQ"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0FMSN58CYQ');
+    </script>
+
     <slot name="head" />
   </head>
   <body>
