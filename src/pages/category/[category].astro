@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const categories = new Set(posts.map((p) => p.data.category).filter(Boolean) as string[]);
+  return Array.from(categories).map((category) => {
+    const catPosts = posts
+      .filter((p) => p.data.category === category)
+      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+    return {
+      params: { category },
+      props: { category, posts: catPosts },
+    };
+  });
+}
+
+const { category, posts } = Astro.props;
+---
+
+<BaseLayout title={`${category} 글 모음`} description={`infoepic AI의 '${category}' 카테고리 글 모음`}>
+  <section class="wrap head-section">
+    <p class="eyebrow">Category</p>
+    <h1>{category}</h1>
+    <p class="count">{posts.length}개의 글</p>
+  </section>
+  <section class="wrap grid-section">
+    <div class="grid">
+      {posts.map((post) => (
+        <PostCard post={post} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .head-section {
+    padding: 48px 24px 24px;
+  }
+  .head-section h1 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    margin: 8px 0 6px;
+  }
+  .count {
+    color: var(--ink-faint);
+    font-size: 14px;
+  }
+  .grid-section {
+    padding: 8px 24px 64px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+  }
+</style>

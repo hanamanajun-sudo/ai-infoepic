@@ -1,0 +1,66 @@
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">infoepic <em>AI</em></p>
+      <p class="foot-desc">AI 팁과 최신 소식을 20대부터 60대까지, 누구나 이해할 수 있게 전합니다.</p>
+    </div>
+    <nav class="foot-links">
+      <a href="/about/">사이트 소개</a>
+      <a href="/contact/">문의</a>
+      <a href="/privacy/">개인정보처리방침</a>
+      <a href="/disclaimer/">면책조항</a>
+    </nav>
+  </div>
+  <div class="wrap foot-bottom">
+    <p>&copy; {new Date().getFullYear()} infoepic AI. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 80px;
+    border-top: 1px solid var(--line);
+    background: var(--paper-raised);
+  }
+  .foot-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+  .foot-brand {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+  .foot-brand em {
+    font-style: normal;
+    color: var(--accent-deep);
+  }
+  .foot-desc {
+    max-width: 360px;
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin: 0;
+  }
+  .foot-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .foot-links a:hover {
+    color: var(--accent-deep);
+  }
+  .foot-bottom {
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+</style>

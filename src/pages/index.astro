@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getAllPosts } from '../lib/posts';
+
+const posts = await getAllPosts();
+const [first, ...rest] = posts;
+---
+
+<BaseLayout title="infoepic AI">
+  <section class="wrap hero">
+    <p class="eyebrow">AI Tips &amp; News</p>
+    <h1>매일 조금씩, <span class="accent">AI를 내 것으로.</span></h1>
+    <p class="hero-sub">복잡한 인공지능 소식을 20대부터 60대까지 누구나 이해할 수 있게 정리해서 전합니다.</p>
+  </section>
+
+  {first && (
+    <section class="wrap featured-section">
+      <PostCard post={first} featured />
+    </section>
+  )}
+
+  <section class="wrap grid-section">
+    <h2 class="section-title">최신 글</h2>
+    <div class="grid">
+      {rest.map((post) => (
+        <PostCard post={post} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 56px 24px 40px;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin: 10px 0 16px;
+  }
+  .hero h1 .accent {
+    color: var(--accent-deep);
+  }
+  .hero-sub {
+    max-width: 560px;
+    color: var(--ink-soft);
+    font-size: 17px;
+  }
+  .featured-section {
+    padding-bottom: 24px;
+  }
+  .grid-section {
+    padding: 24px 24px 64px;
+  }
+  .section-title {
+    font-size: 1.3rem;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--ink);
+    display: inline-block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+  }
+</style>

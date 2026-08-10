@@ -1,0 +1,178 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap');
+
+:root {
+  --paper: #faf6ec;
+  --paper-raised: #fffdf7;
+  --ink: #1c1a14;
+  --ink-soft: #5a5648;
+  --ink-faint: #928c78;
+  --line: #e4dcc8;
+  --accent: #c2600a;
+  --accent-ink: #fff8ef;
+  --accent-tint: #f6e4cf;
+  --accent-deep: #8f4306;
+  --focus: #1c6e5e;
+
+  --font-display: 'Noto Serif KR', serif;
+  --font-body: 'PretendardVariable', 'Pretendard', -apple-system, sans-serif;
+
+  --radius: 3px;
+  --shadow-card: 0 1px 2px rgba(28, 26, 20, 0.06), 0 8px 24px -12px rgba(28, 26, 20, 0.18);
+  --shadow-card-hover: 0 2px 4px rgba(28, 26, 20, 0.08), 0 20px 40px -16px rgba(28, 26, 20, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  background-image:
+    radial-gradient(ellipse 900px 500px at 10% -10%, rgba(194, 96, 10, 0.06), transparent 60%),
+    radial-gradient(ellipse 700px 400px at 100% 0%, rgba(28, 110, 94, 0.05), transparent 55%);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
+.pill {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---- 스크랩된 본문(HTML) 콘텐츠 스타일 ---- */
+.post-content {
+  font-size: 17px;
+  color: var(--ink);
+}
+.post-content p {
+  margin: 0 0 1.3em;
+}
+.post-content h2 {
+  font-size: 1.5em;
+  margin: 1.8em 0 0.7em;
+  padding-top: 0.2em;
+  border-top: 1px solid var(--line);
+}
+.post-content h2:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+.post-content h3 {
+  font-size: 1.2em;
+  margin: 1.5em 0 0.6em;
+}
+.post-content figure {
+  margin: 1.8em 0;
+}
+.post-content figure img {
+  border-radius: var(--radius);
+  margin: 0 auto;
+}
+.post-content figcaption {
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--ink-faint);
+  margin-top: 0.5em;
+}
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 2.5em 0;
+}
+.post-content a {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-tint);
+  text-underline-offset: 3px;
+}
+.post-content a:hover {
+  text-decoration-color: currentColor;
+}
+.post-content blockquote {
+  margin: 1.5em 0;
+  padding: 0.2em 1.4em;
+  border-left: 3px solid var(--accent);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.post-content ul, .post-content ol {
+  margin: 0 0 1.3em;
+  padding-left: 1.4em;
+}
+.post-content .og-image {
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.post-content figure[data-ke-type="opengraph"] {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper-raised);
+}
+.post-content figure[data-ke-type="opengraph"] a {
+  text-decoration: none;
+  display: block;
+}
+.post-content iframe {
+  max-width: 100%;
+  border-radius: var(--radius);
+}

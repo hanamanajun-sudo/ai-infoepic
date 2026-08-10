@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="페이지를 찾을 수 없습니다" noindex>
+  <section class="wrap not-found">
+    <p class="code">404</p>
+    <h1>페이지를 찾을 수 없어요</h1>
+    <p class="desc">주소가 변경되었거나 삭제된 페이지일 수 있습니다.</p>
+    <a class="home-link" href="/">홈으로 돌아가기</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found {
+    padding: 100px 24px;
+    text-align: center;
+  }
+  .code {
+    font-family: var(--font-display);
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--accent-tint);
+    margin: 0;
+    -webkit-text-stroke: 2px var(--accent);
+  }
+  .not-found h1 {
+    margin: 0 0 12px;
+  }
+  .desc {
+    color: var(--ink-soft);
+    margin: 0 0 28px;
+  }
+  .home-link {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .home-link:hover {
+    background: var(--accent-deep);
+  }
+</style>

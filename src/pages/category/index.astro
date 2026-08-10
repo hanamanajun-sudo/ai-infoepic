@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = await getCollection('posts');
+const counts = new Map<string, number>();
+for (const p of posts) {
+  if (!p.data.category) continue;
+  counts.set(p.data.category, (counts.get(p.data.category) ?? 0) + 1);
+}
+const categories = Array.from(counts.entries());
+---
+
+<BaseLayout title="카테고리" description="infoepic AI의 전체 카테고리 목록">
+  <section class="wrap head-section">
+    <p class="eyebrow">Category</p>
+    <h1>카테고리</h1>
+  </section>
+  <section class="wrap list-section">
+    <ul class="cat-list">
+      {categories.map(([name, count]) => (
+        <li>
+          <a href={`/category/${encodeURIComponent(name)}/`}>
+            <span>{name}</span>
+            <span class="count">{count}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .head-section { padding: 48px 24px 24px; }
+  .head-section h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin: 8px 0 0; }
+  .list-section { padding: 8px 24px 64px; }
+  .cat-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-width: 480px; }
+  .cat-list a {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+    font-weight: 600;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .cat-list a:hover {
+    border-color: var(--accent);
+    background: var(--accent-tint);
+  }
+  .count { color: var(--ink-faint); font-weight: 400; }
+</style>
