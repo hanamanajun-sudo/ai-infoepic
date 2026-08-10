@@ -68,8 +68,8 @@ thumbnail: "/images/33/이미지 001.png"
 <p data-ke-size="size16">카카오프렌즈 온라인 샵 주소<span style="color: #333333;">(</span><span style="color: #333333;">1월 26일부터 판매)</span></p>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16"><span style="color: #333333;"><a href="https://store.kakaofriends.com/kr/promotions/promotion/496" target="_blank" rel="noopener">store.kakaofriends.com/kr/promotions/promotion/496</a></span></p>
-<figure id="og_1611625472876" contenteditable="false" data-ke-type="opengraph" data-og-type="website" data-og-title="카카오프렌즈 - 라이언X진라면" data-og-description="공식 온라인스토어" data-og-host="store.kakaofriends.com" data-og-source-url="https://store.kakaofriends.com/kr/promotions/promotion/496" data-og-url="https://store.kakaofriends.com/kr/promotions/promotion/496" data-og-image="/images/linkcards/lc_1133269835.jpg"><a href="https://store.kakaofriends.com/kr/promotions/promotion/496" target="_blank" rel="noopener" data-source-url="https://store.kakaofriends.com/kr/promotions/promotion/496">
-<div class="og-image" style="background-image: url('/images/linkcards/lc_1133269835.jpg');">&nbsp;</div>
+<figure id="og_1611625472876" contenteditable="false" data-ke-type="opengraph" data-og-type="website" data-og-title="카카오프렌즈 - 라이언X진라면" data-og-description="공식 온라인스토어" data-og-host="store.kakaofriends.com" data-og-source-url="https://store.kakaofriends.com/kr/promotions/promotion/496" data-og-url="https://store.kakaofriends.com/kr/promotions/promotion/496" data-og-image="/images/linkcards/lc_8453423990.jpg"><a href="https://store.kakaofriends.com/kr/promotions/promotion/496" target="_blank" rel="noopener" data-source-url="https://store.kakaofriends.com/kr/promotions/promotion/496">
+<div class="og-image" style="background-image: url('/images/linkcards/lc_8453423990.jpg');">&nbsp;</div>
 <div class="og-text">
 <p class="og-title" data-ke-size="size16">카카오프렌즈 - 라이언X진라면</p>
 <p class="og-desc" data-ke-size="size16">공식 온라인스토어</p>
@@ -78,8 +78,8 @@ thumbnail: "/images/33/이미지 001.png"
 </a></figure>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16"><u><b><a href="https://store.kakaofriends.com/kr/index" target="_blank" rel="noopener">store.kakaofriends.com/kr/index</a></b></u></p>
-<figure id="og_1611566923387" contenteditable="false" data-ke-type="opengraph" data-og-type="website" data-og-title="카카오 프렌즈샵" data-og-description="카카오 프렌즈샵" data-og-host="store.kakaofriends.com" data-og-source-url="https://store.kakaofriends.com/kr/index" data-og-url="https://store.kakaofriends.com" data-og-image="/images/linkcards/lc_7134391165.png"><a href="https://store.kakaofriends.com/kr/index" target="_blank" rel="noopener" data-source-url="https://store.kakaofriends.com/kr/index">
-<div class="og-image" style="background-image: url('/images/linkcards/lc_7134391165.png');">&nbsp;</div>
+<figure id="og_1611566923387" contenteditable="false" data-ke-type="opengraph" data-og-type="website" data-og-title="카카오 프렌즈샵" data-og-description="카카오 프렌즈샵" data-og-host="store.kakaofriends.com" data-og-source-url="https://store.kakaofriends.com/kr/index" data-og-url="https://store.kakaofriends.com" data-og-image="/images/linkcards/lc_1466047572.png"><a href="https://store.kakaofriends.com/kr/index" target="_blank" rel="noopener" data-source-url="https://store.kakaofriends.com/kr/index">
+<div class="og-image" style="background-image: url('/images/linkcards/lc_1466047572.png');">&nbsp;</div>
 <div class="og-text">
 <p class="og-title" data-ke-size="size16">카카오 프렌즈샵</p>
 <p class="og-desc" data-ke-size="size16">카카오 프렌즈샵</p>
@@ -149,8 +149,8 @@ thumbnail: "/images/33/이미지 001.png"
 </figure></p>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16"><a href="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" target="_blank" rel="noopener">2021/01/12 - [쇼핑 랭킹] - 카카오프렌즈 제주도 한정 에디션 정보(종류, 위치)</a></p>
-<figure id="og_1611567416840" contenteditable="false" data-ke-type="opengraph" data-og-type="article" data-og-title="카카오프렌즈 제주도 한정 에디션 정보(종류, 위치)" data-og-description="카카오프렌즈 상품 중에 제주도에서만 파는 한정 에디션이 있어서 사진과 살 수 있는 곳 정보를 남겨보았습니다. 하르방 라이언 머리에는 제주도의 상징적인 꽃인 유채꽃이 폰케이스, 메모장, " data-og-host="inssassa.tistory.com" data-og-source-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" data-og-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" data-og-image="/images/linkcards/lc_982598417.jpg"><a href="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" target="_blank" rel="noopener" data-source-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/">
-<div class="og-image" style="background-image: url('/images/linkcards/lc_4198496396.jpg');">&nbsp;</div>
+<figure id="og_1611567416840" contenteditable="false" data-ke-type="opengraph" data-og-type="article" data-og-title="카카오프렌즈 제주도 한정 에디션 정보(종류, 위치)" data-og-description="카카오프렌즈 상품 중에 제주도에서만 파는 한정 에디션이 있어서 사진과 살 수 있는 곳 정보를 남겨보았습니다. 하르방 라이언 머리에는 제주도의 상징적인 꽃인 유채꽃이 폰케이스, 메모장, " data-og-host="inssassa.tistory.com" data-og-source-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" data-og-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" data-og-image="/images/linkcards/lc_7474074559.jpg"><a href="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/" target="_blank" rel="noopener" data-source-url="/entry/카카오프렌즈-제주도-한정-에디션-정보종류-위치/">
+<div class="og-image" style="background-image: url('/images/linkcards/lc_1852167533.jpg');">&nbsp;</div>
 <div class="og-text">
 <p class="og-title" data-ke-size="size16">카카오프렌즈 제주도 한정 에디션 정보(종류, 위치)</p>
 <p class="og-desc" data-ke-size="size16">카카오프렌즈 상품 중에 제주도에서만 파는 한정 에디션이 있어서 사진과 살 수 있는 곳 정보를 남겨보았습니다. 하르방 라이언 머리에는 제주도의 상징적인 꽃인 유채꽃이 폰케이스, 메모장,</p>
@@ -158,8 +158,8 @@ thumbnail: "/images/33/이미지 001.png"
 </div>
 </a></figure>
 <p data-ke-size="size16"><a href="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" target="_blank" rel="noopener">2021/01/12 - [쇼핑 랭킹] - 카카오프렌즈 스페셜 에디션 정보 - KTX 역사 한정 3품</a></p>
-<figure id="og_1611567418816" contenteditable="false" data-ke-type="opengraph" data-og-type="article" data-og-title="카카오프렌즈 스페셜 에디션 정보 - KTX 역사 한정 3품" data-og-description="KTX역 스토어에서만 파는 역사 한정 스페셜 에디션이 커뮤니티에서 화제임 역장 라이언 키링인형 호두과자 라이언 키링 인형 젤펜세트 KTX 역사 한정 카카오프렌즈 종류 젤펜세트랑 역장 라이언" data-og-host="inssassa.tistory.com" data-og-source-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" data-og-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" data-og-image="/images/linkcards/lc_3040667698.jpg"><a href="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" target="_blank" rel="noopener" data-source-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/">
-<div class="og-image" style="background-image: url('/images/linkcards/lc_2451265409.jpg');">&nbsp;</div>
+<figure id="og_1611567418816" contenteditable="false" data-ke-type="opengraph" data-og-type="article" data-og-title="카카오프렌즈 스페셜 에디션 정보 - KTX 역사 한정 3품" data-og-description="KTX역 스토어에서만 파는 역사 한정 스페셜 에디션이 커뮤니티에서 화제임 역장 라이언 키링인형 호두과자 라이언 키링 인형 젤펜세트 KTX 역사 한정 카카오프렌즈 종류 젤펜세트랑 역장 라이언" data-og-host="inssassa.tistory.com" data-og-source-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" data-og-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" data-og-image="/images/linkcards/lc_678392681.jpg"><a href="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/" target="_blank" rel="noopener" data-source-url="/entry/카카오프렌즈-스페셜-에디션-정보-KTX-역사-한정-3품/">
+<div class="og-image" style="background-image: url('/images/linkcards/lc_9381484660.jpg');">&nbsp;</div>
 <div class="og-text">
 <p class="og-title" data-ke-size="size16">카카오프렌즈 스페셜 에디션 정보 - KTX 역사 한정 3품</p>
 <p class="og-desc" data-ke-size="size16">KTX역 스토어에서만 파는 역사 한정 스페셜 에디션이 커뮤니티에서 화제임 역장 라이언 키링인형 호두과자 라이언 키링 인형 젤펜세트 KTX 역사 한정 카카오프렌즈 종류 젤펜세트랑 역장 라이언</p>
